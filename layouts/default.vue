@@ -1,17 +1,12 @@
 <template>
   <v-app >
-    <div class="d-flex justify-center my-5">
-         <NuxtLogo />
-
-    </div>
-    <index />
-    
-     
-      
-     
-    
-    <v-main>
+   
+    <v-main class="white">
       <v-container>
+        <Hero />
+        <LargeCardDisplay v-for="cardInfo in largeCardInfo"
+        :key="cardInfo"
+        :cardsSection="cardInfo" />
         <Nuxt />
       </v-container>
     </v-main>
@@ -21,14 +16,17 @@
 </template>
 
 <script>
+import { largeCardSections } from "@/assets/data.js"
 export default {
   name: 'DefaultLayout',
   data () {
 
     return {
-    
+      largeCardInfo: largeCardSections
     }
-  }
+  },
+
+  
 }
 </script>
 
