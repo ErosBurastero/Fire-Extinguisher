@@ -1,14 +1,25 @@
 <template>
-  <v-app >
+  <v-app  >
    
     <v-main class="white">
-      <v-container>
+      <div>
+        <Nav />
+         <v-container>
+        
         <Hero />
+
         <LargeCardDisplay v-for="cardInfo in largeCardInfo"
-        :key="cardInfo"
+        :key="cardInfo.id"
         :cardsSection="cardInfo" />
+        
+        <SmallCardDisplay v-for="cardInfo in smallCardSections"
+         :key="cardInfo.id"
+         :cardsSection="cardInfo" />
+
         <Nuxt />
       </v-container>
+      </div>
+     
     </v-main>
     
    
@@ -16,13 +27,14 @@
 </template>
 
 <script>
-import { largeCardSections } from "@/assets/data.js"
+import { largeCardSections, smallCardSections } from "@/assets/data.js"
 export default {
   name: 'DefaultLayout',
   data () {
 
     return {
-      largeCardInfo: largeCardSections
+      largeCardInfo: largeCardSections,
+      smallCardSections
     }
   },
 

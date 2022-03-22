@@ -10,7 +10,7 @@
               START LOOKING
             </v-btn>
       </div>
-      <img src="~assets/svg/fire-extinguisher.svg" alt="fire extinguisher" class="ml-2" >
+      <img src="~assets/svg/fire-extinguisher.svg" alt="fire extinguisher" class=" ml-2" >
 
       
   </div>
