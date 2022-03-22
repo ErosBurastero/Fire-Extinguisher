@@ -1,6 +1,7 @@
 <template>
   <v-card>
     <v-tabs centered dark>
+      <NuxtLink to="/"> go to </NuxtLink>
 
       <NuxtLink to="/products"> Products </NuxtLink>
 
@@ -13,7 +14,7 @@
 export default {
   data() {
     return {
-      
+
     }
   },
 };
