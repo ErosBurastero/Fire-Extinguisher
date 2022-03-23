@@ -1,6 +1,6 @@
 <template>
-  <div>
-      hola
+  <div class="black--text">
+      soy un pedo
   </div>
 </template>
 
