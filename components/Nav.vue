@@ -1,7 +1,16 @@
 <template>
-  <v-card>
-    <v-tabs centered dark>
-      <NuxtLink class="white--text" to="/pedo">pedito</NuxtLink>
+  <v-card >
+    <v-tabs  >
+      <NuxtLink class="menu" to="/">Fire Extinguisher</NuxtLink>
+
+    
+    
+      <NuxtLink class="menu" to="/products">Products</NuxtLink>
+
+     
+
+   
+    
 
     </v-tabs>
   </v-card>
@@ -16,3 +25,12 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+
+.menu{
+  text-decoration: none;
+  color: $white !important; 
+  padding: 10px;
+}
+</style>

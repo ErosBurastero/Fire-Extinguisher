@@ -1,8 +1,10 @@
 <template>
   <v-app  >
-   
+  
     <v-main class="white">
+          <Nav />
       <v-container>
+        
          <Nuxt />
       </v-container>
      
