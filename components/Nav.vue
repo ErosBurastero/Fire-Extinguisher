@@ -1,9 +1,17 @@
 <template>
   <v-card >
     <v-tabs  >
-      <NuxtLink class="menu pa-3 " to="/">Fire Extinguisher</NuxtLink>
+      <NuxtLink class="menu" to="/">Fire Extinguisher</NuxtLink>
 
-      <NuxtLink to="/products">products</NuxtLink>
+    
+    
+      <NuxtLink class="menu" to="/products">Products</NuxtLink>
+
+     
+
+   
+    
+
     </v-tabs>
   </v-card>
 </template>
@@ -23,5 +31,6 @@ export default {
 .menu{
   text-decoration: none;
   color: $white !important; 
+  padding: 10px;
 }
 </style>

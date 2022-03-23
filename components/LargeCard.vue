@@ -1,12 +1,12 @@
 <template>
-  <div class="card white black--text ml-10 ">
+  <NuxtLink :to="`/products/${card.id}`"  class="card white black--text ml-10 ">
       <img :src="require(`@/assets/images/${card.image || 'fe1.jpg '}`)" alt="fe" class="image" >
       
          <h3> {{ card.title }} </h3>
          <p> {{ card.snippet }} </p>
       
      
-  </div>
+  </NuxtLink>
 </template>
 
 <script>
