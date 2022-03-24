@@ -26,11 +26,24 @@ export default {
   
 }
 
+.image:hover{
+  animation-name: rotate;
+  animation-duration: 10s;
+  
+}
+
 .card{
   width: 300px;
   height: 500px;
-  
 }
+
+@keyframes rotate{
+  0% {
+    transform: rotateY(360deg);
+  }
+}
+
+
 
 
 
