@@ -1,45 +1,26 @@
 <template>
-  <v-app dark>
-    <h1 v-if="error.statusCode === 404">
-      {{ pageNotFound }}
-    </h1>
-    <h1 v-else>
-      {{ otherError }}
-    </h1>
-    <NuxtLink to="/">
-      Home page
-    </NuxtLink>
-  </v-app>
+  <div>
+    <div class="d-flex black--text display-4 justify-center my-10">
+        <div class="my-16" >PAGE NOT <br>FOUND</div>
+         <img :src="require('@/assets/images/fe7.jpg')" class="error-image">
+
+    </div>
+
+
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'EmptyLayout',
-  layout: 'empty',
-  props: {
-    error: {
-      type: Object,
-      default: null
-    }
-  },
-  data () {
-    return {
-      pageNotFound: '404 Not Found',
-      otherError: 'An error occurred'
-    }
-  },
-  head () {
-    const title =
-      this.error.statusCode === 404 ? this.pageNotFound : this.otherError
-    return {
-      title
-    }
-  }
+
 }
 </script>
 
-<style scoped>
-h1 {
-  font-size: 20px;
+<style>
+
+.error-image{
+  width: 400px;
+  height: 400px;
 }
+
 </style>

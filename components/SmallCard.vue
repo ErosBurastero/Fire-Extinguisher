@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="`/products/${card.id}`" class="cards  ml-5 ">
+  <NuxtLink :to="`/products/${card.id}`" class="cards my-10  ml-7 ">
       <img  :src="require(`@/assets/images/${card.image || fe1.jpg }`)" alt="fe" class="images">
 
   </NuxtLink>
@@ -16,8 +16,8 @@ export default {
 <style>
 
 .cards{
-    width: 350px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
 }
 
 .images{

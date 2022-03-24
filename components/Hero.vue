@@ -1,12 +1,12 @@
 <template>
-  <div class="white container d-flex justify-center">
-    <div class="my-8">
-      <h1 class="display-4 black--text">
+  <div class="white d-flex justify-center" >
+    <div class="my-8" >
+      <h1 class="display-4 black--text d-flex justify-center">
         FIND YOUR<br />
         FIRE<br />
         EXTINGUISHER
       </h1>
-      <p class="snippet black--text">
+      <p class="snippet black--text d-flex  ">
         Lorem ipsum dolor sit amet consectetur um laboriosam<br />
         , perspiciatis deserunt asphendeum atque voluptatem <br />
         omnis molestias cumque adipisci.
@@ -18,13 +18,18 @@
       src="~assets/svg/fire-extinguisher.svg"
       alt="fire extinguisher"
       class="foto ml-2"
+      
     />
 
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    console.log(this)
+  }
+};
 </script>
 
 <style>
