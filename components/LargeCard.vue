@@ -1,8 +1,8 @@
 <template>
-  <NuxtLink
+<div>
+    <NuxtLink
     :to="`/products/${card.id}`"
-    class="card white black--text ml-10"
-    
+    class="ml-10 d-flex"
   >
     <img
       :src="require(`@/assets/images/${card.image || 'fe1.jpg '}`)"
@@ -10,9 +10,19 @@
       class="image"
     />
 
-    <h3>{{ card.title }}</h3>
-    <p>{{ card.snippet }}</p>
-  </NuxtLink>
+     </NuxtLink>
+    
+  <div  class="card white ml-10">
+         <h3 class="black--text">{{ card.title }}</h3>
+     <p class="black--text">{{ card.snippet }}</p>
+  </div>
+ 
+    
+</div>
+  
+ 
+   
+ 
 </template>
 
 <script>
@@ -31,12 +41,14 @@ export default {
 
 .image:hover {
   animation-name: rotate;
-  animation-duration: 4s;
+  animation-duration: 1s;
+  animation-delay: 0.2s;
 }
 
 .card {
   width: 300px;
-  height: 500px;
+  height: 300px;
+  text-decoration: none;
 }
 
 @keyframes rotate {
