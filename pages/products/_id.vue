@@ -36,6 +36,8 @@
             <p>
                 {{ product.description }}
             </p>
+            <v-divider class="black"></v-divider>
+            <Reviewers />
         </div>
 </div>
   
