@@ -30,13 +30,13 @@ export const largeCardSections = [{
                 id: 22,
                 title: "Vintage 1864 Fire Extinguisher",
                 snippet: "This is hands down the worst fire extinguisher you can use in a crisis. The radiation will kill you if the fire doesn't",
-                image: "fe4.png"
+                image: "fe4.jpg"
             },
             {
                 id: 23,
                 title: "Pure Silver & Gold Fire Extinguisher",
                 snippet: "This one is made out of 50k worth of pure silver and white gold. The metal choice was a poor for functionality, but was great for style!",
-                image: "fe5.png"
+                image: "fe5.jpg"
             },
             {
                 id: 24,
@@ -44,6 +44,118 @@ export const largeCardSections = [{
                 snippet: "This is the first ever two in one fire extinguisher. Good if both you and your friend's houses are burining down",
                 image: "fe6.jpg"
             }
+        ]
+    }
+]
+
+export const smallCardSections = [{
+        id: 1,
+        title: "Fire Extinguisher in Toronto",
+        cards: [{
+                id: 1,
+                image: "fe5.jpg"
+            },
+            {
+                id: 2,
+                image: "fe5.jpg"
+            },
+            {
+                id: 3,
+                image: "fe6.jpg"
+            },
+            {
+                id: 4,
+                image: "fe1.jpg"
+            },
+            {
+                id: 5,
+                image: "fe1.jpg"
+            },
+            {
+                id: 6,
+                image: "fe1.jpg"
+            },
+            {
+                id: 7,
+                image: "fe3.jpg"
+            },
+            {
+                id: 8,
+                image: "fe3.jpg"
+            },
+            {
+                id: 9,
+                image: "fe6.jpg"
+            },
+            {
+                id: 10,
+                image: "fe6.jpg"
+            },
+            {
+                id: 11,
+                image: "fe6.jpg"
+            },
+            {
+                id: 12,
+                image: "fe6.jpg"
+            },
+
+
+
+        ]
+    },
+    {
+        id: 2,
+        title: "Fire Extinguisher in Niagara",
+        cards: [{
+                id: 13,
+                image: "fe6.jpg"
+            },
+            {
+                id: 14,
+                image: "fe6.jpg"
+            },
+            {
+                id: 15,
+                image: "fe6.jpg"
+            },
+            {
+                id: 16,
+                image: "fe6.jpg"
+            },
+            {
+                id: 17,
+                image: "fe6.jpg"
+            },
+            {
+                id: 18,
+                image: "fe6.jpg"
+            },
+            {
+                id: 19,
+                image: "fe1.jpg"
+            },
+            {
+                id: 20,
+                image: "fe2.jpg"
+            },
+            {
+                id: 21,
+                image: "fe3.jpg"
+            },
+            {
+                id: 22,
+                image: "fe4.jpg"
+            },
+            {
+                id: 23,
+                image: "fe5.jpg"
+            },
+            {
+                id: 24,
+                image: "fe5.jpg"
+            },
+
         ]
     }
 ]
