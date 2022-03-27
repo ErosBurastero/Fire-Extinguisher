@@ -1,12 +1,12 @@
 <template>
-  <div class="white d-flex justify-center" >
+  <div class="d-flex justify-center flex-wrap" >
     <div class="my-8" >
-      <h1 class="display-4 black--text d-flex justify-center">
+      <h1 class="display-4 black--text">
         FIND YOUR<br />
         FIRE<br />
         EXTINGUISHER
       </h1>
-      <p class="snippet black--text d-flex  ">
+      <p class="snippet black--text d-flex">
         Lorem ipsum dolor sit amet consectetur um laboriosam<br />
         , perspiciatis deserunt asphendeum atque voluptatem <br />
         omnis molestias cumque adipisci.
@@ -16,13 +16,15 @@
 
       </NuxtLink>
     </div>
-
+  <div class="d-flex">
     <img
       src="~assets/svg/fire-extinguisher.svg"
       alt="fire extinguisher"
       class="foto ml-2"
       
     />
+  </div>
+    
 
   </div>
 </template>

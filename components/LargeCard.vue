@@ -41,7 +41,7 @@ export default {
 
 .image:hover {
   animation-name: rotate;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-delay: 0.2s;
 }
 
