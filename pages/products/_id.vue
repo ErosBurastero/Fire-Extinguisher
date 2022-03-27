@@ -1,13 +1,14 @@
 <template>
-  <div>
+  <div >
+
     <div class="black--text d-flex justify-center">
       <img
         :src="require(`@/assets/images/${product.image}`)"
         alt=""
         class="product-image"
       />
-      <div class="box ml-10"
-            :class="{'d-flex justify-center ':$vuetify.breakpoint.smAndDown}">
+    
+      <div class="box ml-10 ">
 
         <h1 class="display-1">{{ product.title }}</h1>
         <v-divider class="black"></v-divider>
@@ -16,30 +17,30 @@
       </div>
     </div>
     <div
-      class="whats-included-container d-flex justify-center my-10 black--text"
+      class="d-flex flex-wrap justify-center my-10 black--text"
     >
-      <div class="included-container">
+      <div>
         <h6>Super Effective</h6>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
           dolorem.
         </p>
       </div>
-      <div class="included-container">
+      <div >
         <h6>Clean & Tidy</h6>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
           dolorem.
         </p>
       </div>
-      <div class="included-container">
+      <div>
         <h6>Cancel Anytime</h6>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
           dolorem.
         </p>
       </div>
-      <div class="included-container">
+      <div>
         <h6>Satisfaction Guaranteed</h6>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
@@ -53,7 +54,7 @@
         {{ product.description }}
       </p>
       <v-divider class="black"></v-divider>
-      <Reviewers />
+      <Reviewers  />
     </div>
   </div>
 </template>
@@ -79,5 +80,13 @@ export default {
   width: 600px;
   height: 300px;
   background: rgb(241, 235, 235);
+}
+
+p{
+  margin-left: 30px;
+}
+
+h6{
+  margin-left: 30px;
 }
 </style>

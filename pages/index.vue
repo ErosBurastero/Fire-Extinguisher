@@ -3,7 +3,7 @@
      
          <div>
            
-        <Hero />
+        <Hero  />
 
         <LargeCardDisplay v-for="cardInfo in largeCardInfo"
         :key="cardInfo.id"
