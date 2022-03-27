@@ -22,11 +22,12 @@
                   prepend-icon="mdi-calendar"
                   readonly
                 ></v-text-field>
-                <v-btn
+                <v-btn 
                   @click="
                     () => {
                       addItem(product.id);
-                    }
+                      sheet= !sheet
+                    } 
                   "
                   class="my-5"
                   depressed
@@ -48,6 +49,7 @@ export default {
   data: () => ({
     sheet: false,
     dates: ["2022-04-10", "2022-04-20"],
+    
   }),
 
   props: ['product'],
