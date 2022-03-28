@@ -15,11 +15,6 @@
 
 <script>
 export default {
-    data() {
-        return {
-
-        }
-    },
 
     props: ['cardsSection']
 
