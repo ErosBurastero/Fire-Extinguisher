@@ -16,20 +16,16 @@
 
 <script>
 export default {
-  data() {
-    return {
-
-    }
-  },
+  
+  
 };
 </script>
+   
 
 <style lang="scss">
 
-.menu{
-  text-decoration: none;
-  color: $white !important; 
-  padding: 10px;
-}
 
-</style>
+</style> 
+
+
+

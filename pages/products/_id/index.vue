@@ -1,20 +1,23 @@
 <template>
   <div >
 
-    <div class="black--text d-flex justify-center">
+    <div class="black--text d-flex justify-center flex-wrap">
       <img
         :src="require(`@/assets/images/${product.image}`)"
         alt=""
         class="product-image"
       />
-    
-      <div class="box ml-10 ">
+      
+   
+       <div class="box ml-2 my-5 ">
 
         <h1 class="display-1">{{ product.title }}</h1>
         <v-divider class="black"></v-divider>
         <div>{{ product.snippet }}</div>
         <RentModal :product="product" class="my-10" />
       </div>
+    
+     
     </div>
     <div
       class="d-flex flex-wrap justify-center my-10 black--text"
@@ -74,6 +77,8 @@ export default {
   width: 500px;
   height: 500px;
   border: solid black 1px;
+  min-width: 350px;
+  min-height: 350px;
 }
 
 .box {
