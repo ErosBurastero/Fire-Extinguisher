@@ -16,7 +16,6 @@
         <div>{{ product.snippet }}</div>
         <RentModal :product="product" class="my-10" />
       </div>
-    
      
     </div>
     <div
