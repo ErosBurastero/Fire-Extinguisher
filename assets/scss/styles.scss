@@ -5,3 +5,11 @@
     text-decoration: none;
     padding: 10px;
 }
+
+.subtitle {
+    @include base;
+}
+
+h4 {
+    @include base;
+}
