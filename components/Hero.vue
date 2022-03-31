@@ -1,17 +1,17 @@
 <template>
-  <div class="d-flex flex-wrap justify-center">
+  <div class="d-flex flex-wrap my-2 justify-center">
     <div class="my-8  ">
-      <h1 class="black--text display-4 ">
+      <h1 class="black--text display-2 ">
         FIND YOUR<br />
         FIRE<br />
         EXTINGUISHER
       </h1>
-      <p class=" black--text">
+      <p class="black--text ml-2">
         Lorem ipsum dolor sit amet consectetur um laboriosam<br />
         , perspiciatis deserunt asphendeum atque voluptatem <br />
         omnis molestias cumque adipisci.
       </p>
-      <NuxtLink to="/products" class="boton ">
+      <NuxtLink to="/products" class="boton">
         <v-btn color="error" large> START LOOKING </v-btn>
       </NuxtLink>
     </div>
@@ -20,10 +20,12 @@
      <img 
       src="~assets/svg/fire-extinguisher.svg"
       alt="fire extinguisher"
-      class="foto ml-2"
-      
+      class="foto"
+      width="350px"
+      height="350px"
     />
 
+    
    
   </div>
 </template>
@@ -52,6 +54,10 @@ export default {
   0% {
     transform: translateY(5%);
   }
+}
+
+div{
+  overflow: hidden;
 }
 
 

@@ -1,6 +1,6 @@
 <template>
     <div class="review-card ">
-        <div class="image-container ">
+        <div class="image-container  ">
             <img :src="review.picture.large" alt="">
         </div>
         <div class="text-container" >
@@ -28,7 +28,7 @@
     img {
         width: 4rem;
         height: 4rem;
-        border-radius: 100%;
+        border-radius: 150%;
     }
     p {
         color: grey
