@@ -1,25 +1,16 @@
 <template>
-  <v-app  >
-  
+  <v-app>
     <v-main class="white">
-          <Nav />
+      <Nav />
       <v-container>
-        
-         <Nuxt />
+        <Nuxt />
       </v-container>
-     
     </v-main>
-    
-  
   </v-app>
 </template>
 
 <script>
 export default {
-  name: 'DefaultLayout',
- 
-  
-}
+  name: "DefaultLayout",
+};
 </script>
-
-
