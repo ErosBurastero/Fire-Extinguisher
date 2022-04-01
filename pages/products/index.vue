@@ -1,10 +1,10 @@
 <template>
   <div>
-      <LargeCardDisplay v-for="cardInfo in largeCardInfo.slice(0,1)" 
+      <CardsLargeCardDisplay v-for="cardInfo in largeCardInfo.slice(0,1)" 
       :key="cardInfo.id" 
       :cardsSection="cardInfo" />
 
-      <SmallCardDisplay v-for="cardInfo in smallCardSections" 
+      <CardsSmallCardDisplay v-for="cardInfo in smallCardSections" 
       :key="cardInfo.id" 
       :cardsSection="cardInfo" />
 

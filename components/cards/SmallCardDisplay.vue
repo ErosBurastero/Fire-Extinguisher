@@ -5,7 +5,7 @@
       </h3>
 
       <div class="d-flex justify-center flex-wrap pa-10">
-          <SmallCard v-for="card in cardsSection.cards"
+          <CardsSmallCard v-for="card in cardsSection.cards"
            :key="card.id"
            :card="card" />
       </div>
