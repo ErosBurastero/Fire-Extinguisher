@@ -1,5 +1,6 @@
 <template>
-  <div class="d-flex justify-center my-5">
+  <div class="d-flex justify-center my-5"
+        :class="{'d-flex justify-center flex-wrap':$vuetify.breakpoint.smAndDown}">
     <img :src="require(`@/assets/images/${item.image}`)" class="image" alt="" />
     <div class="ml-2">
       <div class="display-1 my-3">

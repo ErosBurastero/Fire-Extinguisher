@@ -1,7 +1,8 @@
 <template>
   <div>
       <div v-if="!$fetchState.pending"> 
-          <ReviewersCard 
+          <RevReviewersCard 
+          class="my-16"
           v-for="reviewer in reviewers.results"
           :key="reviewer.login.uuid"
           :review="reviewer"/>
