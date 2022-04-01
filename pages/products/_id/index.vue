@@ -56,7 +56,7 @@
         {{ product.description }}
       </p>
       <v-divider class="black"></v-divider>
-      <Reviewers  />
+      <RevReviewers  />
     </div>
   </div>
 </template>
