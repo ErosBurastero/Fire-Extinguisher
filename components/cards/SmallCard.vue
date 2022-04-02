@@ -13,16 +13,3 @@ export default {
   props: ["card"],
 };
 </script>
-
-<style>
-.cards {
-  width: 250px;
-  height: 250px;
-}
-
-.images {
-  width: 250px;
-  height: 250px;
-  border: solid 1px black;
-}
-</style>

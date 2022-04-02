@@ -3,3 +3,9 @@
         transform: rotateY(360deg);
     }
 }
+
+@keyframes move {
+    0% {
+        transform: translateY(5%);
+    }
+}
