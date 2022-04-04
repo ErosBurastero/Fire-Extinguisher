@@ -1,3 +1,6 @@
-@mixin base {
+@mixin base($property: null, $value: null) {
+    @if($property !=null) {
+        #{$property}: $value
+    }
     color: black;
 }

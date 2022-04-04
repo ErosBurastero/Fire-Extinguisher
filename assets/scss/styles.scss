@@ -8,7 +8,7 @@
 }
 
 .subtitle {
-    @include base;
+    @include base(border, solid black 1px);
 }
 
 h4 {
