@@ -1,6 +1,7 @@
 @import "/assets/scss/mixins.scss";
 @import "/assets/scss/variables.scss";
 @import "/assets/scss/keyframes.scss";
+@import "/assets/scss/nesting.scss";
 .menu {
     color: $white;
     text-decoration: none;
@@ -13,10 +14,6 @@
 
 h4 {
     @include base;
-}
-
-div {
-    overflow: hidden;
 }
 
 .boton {

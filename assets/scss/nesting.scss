@@ -1,0 +1,12 @@
+div {
+    overflow: hidden;
+    p {
+        color: black;
+        &:hover {
+            color: red;
+        }
+    }
+    h3 {
+        color: black;
+    }
+}

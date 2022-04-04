@@ -9,8 +9,8 @@
     </NuxtLink>
 
     <div class="card white ml-5">
-      <h3 class="black--text ml-2">{{ card.title }}</h3>
-      <p class="black--text ml-2">{{ card.snippet }}</p>
+      <h3 class="ml-2">{{ card.title }}</h3>
+      <p class=" ml-2">{{ card.snippet }}</p>
     </div>
   </div>
 </template>
