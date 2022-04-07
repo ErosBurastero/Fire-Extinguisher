@@ -155,3 +155,7 @@ export const smallCardSections = [{
         ],
     },
 ];
+
+export default {
+    name: 'matafuegos'
+}
