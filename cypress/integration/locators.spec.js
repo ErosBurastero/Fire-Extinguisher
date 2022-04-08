@@ -2,10 +2,11 @@
 
 describe("Locators", () => {
     beforeEach(() => {
-        cy.visit("/products")
+        cy.visit('/products')
     })
 
     it("locating elements with get", () => {
 
     })
+
 })
