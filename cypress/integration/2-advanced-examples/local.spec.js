@@ -2,11 +2,12 @@
 
 describe("local", () => {
     beforeEach(() => {
-        cy.visit(Cypress.env('baseUrl'))
+        cy.visit('')
     })
 
-    it('runing localhost', () => {
-        expect('baseUrl')
+    it('get title', () => {
+        cy.GetByDataCy('title')
+        expect('FIND YOUR FIRE EXTINGUISHER')
     })
 
 })

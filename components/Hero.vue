@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-wrap my-2 justify-center">
     <div class="my-8">
-      <h1 class="black--text display-2">
+      <h1 class="black--text display-2" data-cy="title">
         FIND YOUR<br />
         FIRE<br />
         EXTINGUISHER
