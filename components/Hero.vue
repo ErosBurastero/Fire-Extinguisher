@@ -6,7 +6,7 @@
         FIRE<br />
         EXTINGUISHER
       </h1>
-      <p class="black--text ml-2">
+      <p class="black--text ml-2" data-cy="description">
         Lorem ipsum dolor sit amet consectetur um laboriosam<br />
         , perspiciatis deserunt asphendeum atque voluptatem <br />
         omnis molestias cumque adipisci.
