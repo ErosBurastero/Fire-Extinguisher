@@ -1,12 +1,12 @@
 <template>
   <div class="d-flex flex-wrap my-2 justify-center">
     <div class="my-8">
-      <h1 class="black--text display-2">
+      <h1 class="black--text display-2" data-cy="title">
         FIND YOUR<br />
         FIRE<br />
         EXTINGUISHER
       </h1>
-      <p class="black--text ml-2">
+      <p class="black--text ml-2" data-cy="description">
         Lorem ipsum dolor sit amet consectetur um laboriosam<br />
         , perspiciatis deserunt asphendeum atque voluptatem <br />
         omnis molestias cumque adipisci.

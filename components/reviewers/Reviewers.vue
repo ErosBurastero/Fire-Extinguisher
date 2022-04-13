@@ -26,5 +26,7 @@ export default {
       (res) => res.json()
     );
   },
+
+ 
 };
 </script>
