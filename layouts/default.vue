@@ -29,7 +29,7 @@ export default {
 
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/fire.ico' },
+            { rel: 'icon', type: 'image/png', href: '/fire.png' },
              {
             rel: 'stylesheet',
             href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap'
