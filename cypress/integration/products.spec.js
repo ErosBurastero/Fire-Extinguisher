@@ -20,8 +20,5 @@ describe("products", () => {
         cy.get('[href="/my-items"]').click()
         expect("/my-items")
 
-
-
-
     })
 })

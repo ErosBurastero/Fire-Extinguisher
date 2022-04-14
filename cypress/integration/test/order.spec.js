@@ -7,6 +7,9 @@ describe("order", () => {
 
     it("get products into my items", () => {
         cy.contains("START LOOKING")
+        cy.intercept("GET", "https://randomuser.me/api/?results=5", {
+            fixture: "users.json"
+        })
         expect("/products")
         cy.get('[href="/products/1"] > .images').should("be.visible").click()
         expect("/products/1")
