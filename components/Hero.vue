@@ -15,7 +15,7 @@
         <v-btn color="error" large> START LOOKING </v-btn>
       </NuxtLink>
     </div>
-
+  
     <img
       src="~assets/svg/fire-extinguisher.svg"
       alt="fire extinguisher"

@@ -11,7 +11,7 @@
         <h1 class="display-1">{{ product.title }}</h1>
         <v-divider class="black"></v-divider>
         <div>{{ product.snippet }}</div>
-        <RentModal :product="product" class="my-10" />
+        <RentModalNew :product="product" class="my-10" />
       </div>
     </div>
     <div class="d-flex flex-wrap justify-center my-10 black--text">
